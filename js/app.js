@@ -73,13 +73,7 @@ function runClick(event){
       if(clickedCount === maxClicked){
         localStorage.setItem('previousChartData', JSON.stringify(ImagesInstance.list));
         rmEventListener();
-        //todo create currentChartData and asign it to the combination to current one with previous one
         doTheChartThing();
-        // var stringyfiedCurrentChartData =JSON.stringify(ImagesInstance.list);
-        // console.log(stringyfiedCurrentChartData);
-
-        // //todo need to combine current data (instanlist) with previous data and update currentchartdata
-       
         break;
       }
 

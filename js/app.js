@@ -26,7 +26,7 @@ function ImagesInstance(name, filePath, description){
   ImagesInstance.list.push(this);
 }
 if(localStorage.previousChartData){
- ImagesInstance.list = JSON.parse(localStorage.getItem('previousChartData'));
+  ImagesInstance.list = JSON.parse(localStorage.getItem('previousChartData'));
 }else{
   createNewInstances(imagesNames,imagesPaths,imagesDescriptions);
 }

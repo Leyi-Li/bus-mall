@@ -33,6 +33,11 @@ nav>ul>li{
   display: inline-block;
 }
 
+body{
+  width:100%;
+  position: relative;
+}
+
 main {
   position: relative;
   display: inline-block;
@@ -99,11 +104,11 @@ img{
 }
 
 .chartContainer{
-  width: 960px;
-  height: 500px;
   text-align: center;
-  left:200px;
+  width: 100%;
 }
+
+
 
 footer {
   position: relative;
